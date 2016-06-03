@@ -5,3 +5,8 @@ open(my $fh, '-|', 'powercfg -l') or die $!;
 while (my $line = <$fh>) {
     # Do stuff with each $line.
 }
+
+#return capture directly to variable
+my ($id) =  /(^\S+)/ ;
+
+
