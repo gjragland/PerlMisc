@@ -55,3 +55,8 @@ for my $i ( 0 .. $len2 ) {
     print join(' ', map { sprintf '%3d', $_ } @$row), "\n";
 }
 
+#read from command line arguments, but default to value if no argument
+my $path = shift || '.';
+
+
+
