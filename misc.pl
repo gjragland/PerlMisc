@@ -58,5 +58,8 @@ for my $i ( 0 .. $len2 ) {
 #read from command line arguments, but default to value if no argument
 my $path = shift || '.';
 
+#'say' like 'print', but adds a newline
+say "$thing/$sub";
+
 
 
